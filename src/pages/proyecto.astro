@@ -3,35 +3,19 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="proyecto">
-  <div class="d-grid gap-2 col-6 mx-auto">
-    <a href="esteban" class="btn btn-outline-secondary" type="button">esteban</a
-    >
-  </div>
-
-  <div class="accordion accordion-flush" id="accordionFlushExample">
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button
-          class="accordion-button collapsed"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#flush-collapseOne"
-          aria-expanded="false"
-          aria-controls="flush-collapseOne"
-        >
-          ¿Que son los servicios de mantenimiento aeronauticos?
-        </button>
-      </h2>
-      <div
-        id="flush-collapseOne"
-        class="accordion-collapse collapse"
-        data-bs-parent="#accordionFlushExample"
-      >
-        <div class="accordion-body">
-          son servicios previamente programados donde se traza como objetivo
-          mantener la seguridad y la aeronavegabilidad del avion
-        </div>
-      </div>
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <a href="esteban" class="btn btn-outline-secondary" type="button">esteban</a>
     </div>
-  </div>
+
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              ¿Que son los servicios de mantenimiento aeronauticos?
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"> son servicios previamente programados donde se traza como objetivo mantener la seguridad y la aeronavegabilidad del avion </div>
+          </div>
+        </div>
 </Layout>
