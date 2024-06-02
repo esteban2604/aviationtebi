@@ -1,47 +1,36 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+---
+import Layout from "../layouts/Layout.astro";
+---
 
-<div>
+<Layout title="esteban ">
+    <div>
+        <a type="button" class="btn btn-secondary"> PROYECTO ESTEBAN GOMEZ </a>
 
-   <li> <a href="proyecto" button type="button" class="btn btn-secondary"> PROYECTO ESTEBAN GOMEZ   </button></li>
-<h1> <b>AVIACION</b></h1>
- <ul>
-<button type= "button" class="btn btn-online primary">CONTENIDO</button>
-</ul>
+        <h1><b>AVIACION</b></h1>
 
-<style>  ul,button {
-padding-right: 5px;
-text-align: center;
-text-decoration: darkgray;
-margin-bottom: 20px;
-justify-content: baseline;
-}</style>
-<body>
-    
-<h3>El contendio de ese sitio tiene que ver con temas relacionados con la aviacion que es en el area el cual trabajo y en el cual desempeno una labor muy importante como lo es  el mantenimiento de aviones.
+        <body>
+            <h4>
+                El contendio de ese sitio tiene que ver con temas relacionados
+                con la aviacion que es en el area el cual trabajo y en el cual
+                desempeno una labor muy importante como lo es el mantenimiento
+                de aviones.
+            </h4>
 
-</h3>
+            <a
+                href="contenido"
+                class="btn btn-outline-warning"
+                data-bs-toogle="button"
+            >
+                CONTENIDO</a
+            >
 
-
-<li> <a href="contenido" class="btn" role="button" data-bs-toogle="button"> contenido</a> </li>
-
-
-
-
-
-
-
-
-
-</body>
-</div>
-
+            <a
+                href="proyecto"
+                class="btn btn-outline-primary"
+                data-bs-toogle="button"
+            >
+                PROYECTO</a
+            >
+        </body>
+    </div>
+</Layout>
