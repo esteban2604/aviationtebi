@@ -3,15 +3,20 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="esteban">
-   <div class="d-grid gap-2 col-6 mx-auto">
+   <div class="d-grid gap-2 col-6 mx-auto" style="text-align: center;">
       <button type="button" class="opacity-50" class="btn btn-secondary">
          PROYECTO ESTEBAN GOMEZ
       </button>
-      <h3>AVIACION</h3>
+
+      <h3 style="color: aliceblue;">
+         AVIACION
+      </h3>
    </div>
-   
+
    <body>
-      <h3>
+      <h3
+         style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"
+      >
          <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
             El contendio de ese sitio tiene que ver con temas relacionados con
             la aviacion que es en el area el cual trabajo y en el cual desempeno
@@ -19,17 +24,27 @@ import Layout from "../layouts/Layout.astro";
          </div>
       </h3>
 
-      <a href="contenido" class="btn btn-outline-danger"  data-bs-toogle="button">
+      <a
+         href="contenido"
+         class="btn btn-outline-danger"
+         data-bs-toogle="button"
+      >
          CONTENIDO</a
       >
-      <a href="proyecto" class="btn btn-outline-warning"  data-bs-toogle="button">
+      <a
+         href="proyecto"
+         class="btn btn-outline-warning"
+         data-bs-toogle="button"
+      >
          PROYECTO</a
       >
-      <a href="nosotros" class="btn btn-outline-success"  data-bs-toogle="button">
-         NOSOTROS</a>
-
-            
-
+      <a
+         href="nosotros"
+         class="btn btn-outline-success"
+         data-bs-toogle="button"
+      >
+         NOSOTROS</a
+      >
    </body>
 </Layout>
 <style>
@@ -41,4 +56,13 @@ import Layout from "../layouts/Layout.astro";
       justify-content: baseline;
       -o-animation-fill-mode: both;
    }
+</style>
+
+<style>
+   body {
+      background-image: url(public/A330.jpg);
+ }
+
+ 
+
 </style>
