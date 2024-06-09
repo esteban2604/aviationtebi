@@ -1,18 +1,17 @@
 ---
+import Menu from "../components/Menu.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="proyecto">
-    <div class="d-grid gap-2 col-6 mx-auto">
-        <a href="esteban" class="btn btn-outline-secondary" type="button">esteban</a>
-    </div>
+  <Menu></Menu>
 
     <div class="accordion accordion-flush" id="accordionFlushExample">
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-              <b>¿Que son los servicios de mantenimiento aeronauticos?</b>
-            </button>
+              <b> <h3>¿Que son los servicios de mantenimiento aeronauticos?</b>
+         </h3>   </button>
           </h2>
           <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body"> son servicios previamente programados donde se traza como objetivo mantener la seguridad y la aeronavegabilidad del avion </div>
@@ -23,8 +22,8 @@ import Layout from "../layouts/Layout.astro";
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                <b>¿Cuál es la importancia del mantenimiento preventivo en la industria aeroespacial?</b>
-              </button>
+                <b><h3>¿Cuál es la importancia del mantenimiento preventivo en la industria aeroespacial?</b>
+             </h3> </button>
             </h2>
             <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
               <div class="accordion-body">
@@ -35,8 +34,8 @@ import Layout from "../layouts/Layout.astro";
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                <b> ¿Qué papel juegan los técnicos de mantenimiento de aviones en la seguridad de las operaciones aéreas?</b>
-              </button>
+                <b> <h3>¿Qué papel juegan los técnicos de mantenimiento de aviones en la seguridad de las operaciones aéreas?</b>
+              </h3></button>
             </h2>
             <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
               <div class="accordion-body">
@@ -47,8 +46,8 @@ import Layout from "../layouts/Layout.astro";
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                <b>¿Qué desafíos enfrenta el mantenimiento de aviones en la actualidad?</b>
-              </button>
+                <b><h3>¿Qué desafíos enfrenta el mantenimiento de aviones en la actualidad?</b>
+             </h3> </button>
             </h2>
             <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
               <div class="accordion-body">
@@ -56,6 +55,10 @@ import Layout from "../layouts/Layout.astro";
               </div>
             </div>
           </div>
+        </div>
+
+        <div class="ratio ratio-21x9">
+          <iframe src="https://www.youtube.com/watch?v=n_E-vuI9qAk" title="videop youtube" allowfullscreen></iframe>
         </div>
         
 </Layout>
