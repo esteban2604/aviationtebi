@@ -1,44 +1,113 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Menu from "../components/Menu.astro";
 ---
 
 <Layout title="esteban">
-   <div class="d-grid gap-2 col-6 mx-auto">
-      <button type="button" class="opacity-50" class="btn btn-secondary">
+   <div class="text-center">
+      <button class="btn btn-secondary">
          PROYECTO ESTEBAN GOMEZ
       </button>
-      <h3>AVIACION</h3>
-   </div>
-   
-   <body>
-      <h3>
-         <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
-            El contendio de ese sitio tiene que ver con temas relacionados con
-            la aviacion que es en el area el cual trabajo y en el cual desempeno
-            una labor muy importante como lo es el mantenimiento de aviones.
-         </div>
+      <Menu></Menu>
+
+      <h3 style="text-align: center; font-family:Arial, Helvetica, sans-serif">
+         AVIACION
       </h3>
+   </div>
 
-      <a href="contenido" class="btn btn-outline-danger"  data-bs-toogle="button">
-         CONTENIDO</a
-      >
-      <a href="proyecto" class="btn btn-outline-warning"  data-bs-toogle="button">
-         PROYECTO</a
-      >
-      <a href="nosotros" class="btn btn-outline-success"  data-bs-toogle="button">
-         NOSOTROS</a>
+   <h3
+      style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"
+   >
+      <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+         El contendio de ese sitio tiene que ver con temas relacionados con la
+         aviacion que es en el area el cual trabajo y en el cual desempeno una
+         labor muy importante como lo es el mantenimiento de aviones.
+      </div>
 
-            
+      <img src="public/fondo 330.jpg" alt="" width="700px" height="500px" />
 
-   </body>
-</Layout>
+      <p>
+         <h3>
+            Las fábricas de aviones son instalaciones especializadas en la
+            producción de aeronaves, desde pequeños aviones de uso personal
+            hasta grandes aviones comerciales y militares. Estas instalaciones
+            suelen estar equipadas con tecnología de vanguardia y emplean a
+            ingenieros, técnicos y personal especializado en la fabricación de
+            componentes aeroespaciales. Las fábricas de aviones son clave en la
+            industria aeroespacial, ya que son responsables de diseñar,
+            desarrollar y ensamblar aviones siguiendo estrictos estándares de
+            seguridad y calidad. Estas instalaciones suelen estar ubicadas en
+            diferentes partes del mundo y son operadas por empresas líderes en
+            la industria, como Boeing, Airbus, Lockheed Martin y Embraer, entre
+            otras. El proceso de fabricación de un avión puede ser muy complejo
+            e involucra múltiples etapas, desde el diseño inicial hasta la
+            producción en masa. Las fábricas de aviones están equipadas con
+            maquinaria especializada, como robots y herramientas de precisión,
+            para fabricar componentes como fuselajes, alas, motores y sistemas
+            de aviónica. En resumen, las fábricas de aviones desempeñan un papel
+            fundamental en la creación de aeronaves seguras y eficientes que son
+            utilizadas en una amplia gama de aplicaciones, desde el transporte
+            de pasajeros y carga hasta misiones militares y de exploración
+            espacial.
+         </h3>
+
+         <h3>
+            <b>Localización y tamaño:</b> Las fábricas de aviones pueden encontrarse
+            en diversas ubicaciones alrededor del mundo, con algunas de las más grandes
+            ubicadas en países con una larga historia en la industria aeroespacial,
+            como Estados Unidos, Francia, Alemania y Rusia. Estas instalaciones pueden
+            ser enormes, ocupando áreas extensas de terreno y albergando miles de
+            empleados. Proceso de fabricación: El proceso de fabricación de un avión
+            implica una serie de etapas complejas que van desde la ingeniería y el
+            diseño hasta la producción y el ensamblaje final. Cada avión está compuesto
+            por miles de piezas y componentes que deben ser fabricados con precisión
+            y luego ensamblados de manera meticulosa para garantizar la seguridad
+            y el rendimiento del avión. Innovación tecnológica: Las fábricas de aviones
+            están constantemente adoptando nuevas tecnologías y procesos de fabricación
+            para mejorar la eficiencia, reducir los costos y desarrollar aviones
+            más avanzados. Esto incluye el uso de materiales compuestos ligeros,
+            técnicas de fabricación aditiva (como la impresión 3D), y sistemas de
+            automatización y robótica para agilizar la producción. Empleo y economía:
+            Las fábricas de aviones son importantes generadoras de empleo en las
+            comunidades donde están ubicadas, proporcionando trabajo a ingenieros,
+            técnicos, operarios y personal de apoyo. Además, estas instalaciones
+            suelen tener un impacto significativo en la economía local y nacional,
+            ya que contribuyen a la creación de empleo, el desarrollo tecnológico
+            y la exportación de productos aeroespaciales. Certificaciones y regulaciones:
+            La industria aeroespacial está sujeta a estrictas regulaciones y normativas
+            de seguridad, calidad y medio ambiente. Las fábricas de aviones deben
+            cumplir con una serie de certificaciones y estándares internacionales
+            para garantizar que sus productos cumplan con los requisitos exigidos
+            por las autoridades de aviación civil y militar. En resumen, las fábricas
+            de aviones son instalaciones altamente especializadas que desempeñan
+            un papel crucial en la fabricación de aeronaves seguras y eficientes,
+            impulsando la innovación tecnológica y contribuyendo al desarrollo económico
+            y social en todo el mundo.
+         </h3>
+      </p>
+   </h3>
+   </Layout>
 <style>
    button {
       padding-right: 5px;
       text-align: center;
       text-decoration: darkgray;
-      margin-bottom: 20px;
-      justify-content: baseline;
-      -o-animation-fill-mode: both;
+      width: 500px;
+      margin: auto;
+   }
+
+   button {
+      background-image: url(public/A330.jpg);
+   }
+   h3 {
+      font-family: times mew "Times New Roman";
+      color: #000000;
+      text-align: justify;
+      margin-left: 30px;
+      margin-right: 30px;
+   }
+   img {
+      border-radius: 20px;
+      margin-left: 500px;
    }
 </style>
